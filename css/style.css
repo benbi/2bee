@@ -11,7 +11,9 @@
 /* Basic */
 
 	body {
-		background-image: url(https://source.unsplash.com/category/nature/1600x900);
+		background: 
+  		linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  		#663fb5 url(https://source.unsplash.com/category/nature/1600x900) no-repeat center bottom;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1051,19 +1053,22 @@
 
 /* Banner */
 
+
 	#banner {
+
 		padding: 16em 0 13em 0;
+		background-color: black;
 		background-attachment: fixed;
-		background-image: url(https://source.unsplash.com/category/nature/1600x900), url(https://source.unsplash.com/category/nature/1600x900);
+		background-image: 
+		  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+			url(https://source.unsplash.com/category/nature/1600x900), url(https://source.unsplash.com/category/nature/1600x900);
 		background-position: center top;
 		background-size: cover;
 		line-height: 1.75;
 		text-align: center;
-	}
-	#background-image {
-		opacity: 0.4;
-    filter: alpha(opacity=40); /* For IE8 and earlier */
-	}
+	}	
+
+		
 
 		#banner :last-child {
 			margin-bottom: 0;
